@@ -1,10 +1,9 @@
-# dft_training
-# Schedule (3 Fridays - 2 hour sessions)
+# Schedule (4 Fridays - about 2 - 2:30 hours per session)
 
 ## Homework (Week 0)
-### The Quantum espresso link below will be our main reference.
-### http://www.quantum-espresso.org/quote
-### The video below is helpful in Quantum espresso installation:https://www.youtube.com/watch?v=RlYymTEY4CE
+
++ Install Quantum Espresso on your machine: https://www.youtube.com/watch?v=RlYymTEY4CE
++ Make sure that you have a Rad account (Rad is the group's cluster)
 
 ## April 3rd (Week 1)
 ### Theory
