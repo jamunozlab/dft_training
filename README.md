@@ -4,6 +4,9 @@
 
 + Install Quantum Espresso on your machine: https://www.youtube.com/watch?v=RlYymTEY4CE
 + Make sure that you have a Rad account (Rad is the group's cluster)
++ It is impossible to go from zero to hero with the theory in 4 hours, so by necessity we will be handwavy. Nevertheless there is method to madness: the theory part is based on Marder's Condensed Matter Physics 2nd Ed. (https://onlinelibrary.wiley.com/doi/book/10.1002/9780470949955). It will be useful be really useful if you checkout the apprpriate sections before each week.
+
+
 
 ## April 3rd (Week 1)
 ### Theory
