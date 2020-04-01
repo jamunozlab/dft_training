@@ -1,6 +1,6 @@
 # Schedule (4 Fridays - about 2 - 2:30 hours per session)
 
-## Homework (Week 0)
+### Homework (Week 0)
 
 + Install Quantum Espresso on your machine: https://www.youtube.com/watch?v=RlYymTEY4CE
 + Make sure that you have a Rad account (Rad is the group's cluster)
@@ -12,11 +12,13 @@
 
 
 ### Practice
-#### Run basic PWscf (pw.x) calculations and band-structure (bands.x)
-#### Look at Silicon
++ Run basic PWscf (pw.x) calculations and band-structure (bands.x)
++ Simulate silicon
 
-#### Homework: Calculate DOS (dos.x) for Si
-#### Optional: Calculate band structure and phonon DOS for graphene, Fe
+### Homework
+
++ Calculate DOS (dos.x) for Si (required)
++ Calculate band structure and phonon DOS for graphene, Fe (optional)
 
 ## April 10th (Week 2)
 ### Theory
@@ -24,12 +26,12 @@
 + Hartre-Fock, Kohn-Sham, planewaves and pseudo-potentials, the periodic table 
 
 ### Practice
-#### Structural optimization of hpc-Zinc
 
++ Structural optimization of hpc-Zinc
 
+### Homework
 
-### Homework 
-#### Install Phonopy 2.0
++ Install Phonopy 2.5 (https://phonopy.github.io/phonopy/install.html)
 
 ## April 17th (Week 3)
 ### Theory
@@ -37,10 +39,12 @@
 + Phonon dispersion relations, phonon DOS, phonon anharmonicity, specific heat, thermal expansion
 
 ### Practice
-#### Phonopy
+
+ + Phonon dispersion curves and phonon DOS in Phonopy 
 
 ### Homework 
-#### Install Phonopy 2.0
+
+ + TBD
 
 ## April 24th (Week 4)
 ### Theory
@@ -48,4 +52,5 @@
 + Cohesion in d-electron metals, elastic properties of cubic crystal lattices, magnetism of d- and f- electron materials
 
 ### Practice
-#### Phonopy
+
+ + Quasiharmonic phonon thermodynamics in phonopy
