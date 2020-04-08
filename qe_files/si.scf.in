@@ -1,0 +1,35 @@
+ &control
+    calculation='scf'
+    restart_mode='from_scratch',
+    prefix='si'
+    pseudo_dir = '/home1/03438/bethok12/pseudo/',
+    outdir='.',
+    tstress = .true.
+    tprnfor = .true.
+   wf_collect = .TRUE.,
+ /
+ &system
+    smearing = 'gaussian',
+    occupations = 'smearing',   
+    degauss = 0.005, 
+    ibrav= 1, celldm(1)= 10.2, nat= 2, ntyp= 1,
+    ecutwfc =18.0, ecutrho = 180.0,
+/
+ &electrons
+    conv_thr =  1.0d-8
+    mixing_beta = 0.7
+/
+ &ions
+    ion_dynamics = 'bfgs'
+ /
+ &cell
+    cell_factor = 10
+    cell_dynamics='damp-w'
+/
+ATOMIC_SPECIES
+    Si 28.059 Si.pbe-rrkj.UPF
+ATOMIC_POSITIONS alat
+ Si 0.00 0.00 0.00
+ Si 0.25 0.25 0.25
+K_POINTS AUTOMATIC
+ 8 8 8 0 0 0 
